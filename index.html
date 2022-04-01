@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/favicon.png" />
+    <meta
+      name="description"
+      content="Weather app to check real time forecast around the World"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <!-- icons -->
+    <script
+      src="https://kit.fontawesome.com/866228d77e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Mali:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Weather forecast</title>
+  </head>
+  <body>
+    <main class="main">
+      <!-- section 1  -->
+
+      <section class="section">
+        <div class="sec">
+          <div class="container-1">
+            <nav class="nav">
+              <input type="text" class="input" placeholder="Enter a city" />
+              <div class="button-search">
+                <button class="button-icon">
+                  <ion-icon
+                    class="search-icon"
+                    name="search-outline"
+                  ></ion-icon>
+                </button>
+              </div>
+              <button class="button">current location</button>
+            </nav>
+            <div class="cf">
+              <!-- <p class="c active">°C</p>
+              /
+              <p class="f">°F</p> -->
+            </div>
+          </div>
+          <div class="warning-div">
+            <p class="warning">Type correct city name!</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- section 2  -->
+      <section class="section">
+        <div class="container-2">
+          <!-- parametry -->
+          <div class="section2-text">
+            <!-- Miasto -->
+            <div class="section2-city">
+              <h1 class="city-name">Berlin</h1>
+              <p class="date-time">Monday August 20:25</p>
+            </div>
+            <!-- Pomiary -->
+            <div class="section2-parametrs">
+              <div class="mesurements-grid">
+                <div class="mesurement-icon-vec">
+                  <img class="vector-img" src="img/vector-temp.png" />
+                </div>
+                <div>max min temperature:</div>
+                <div class="measurement-temperature">31 16°C</div>
+                <div class="mesurement-icon-vec">
+                  <img class="vector-img" src="img/vector-wind.png" />
+                </div>
+                <div>wind speed:</div>
+                <div class="measurement-wind">22km/h</div>
+                <div class="mesurement-icon-vec">
+                  <img class="vector-img" src="img/vector-rain.png" />
+                </div>
+                <div>humidity:</div>
+                <div class="measurement-humidity">10%</div>
+                <div class="mesurement-icon-vec">
+                  <img class="vector-img" src="./img/vector-pressure.png" />
+                </div>
+                <div>pressure:</div>
+                <div class="measurement-pressure">1018hPa</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- grafika -->
+          <div class="section-2-graphic">
+            <div class="main-icon-container">
+              <img class="main-icon" src="img/icon-hot.png" alt="sun icon" />
+              <div class="temp"><h2 class="cur-temp">31°C</h2></div>
+            </div>
+            <div class="temp-description">
+              <h3 class="status">Extremely hot</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section3 -->
+
+      <section class="section">
+        <div class="container container-3">
+          <div class="hour">12:00</div>
+          <div class="hour">12:00</div>
+          <div class="hour">12:00</div>
+          <div class="hour">12:00</div>
+          <div class="hour">12:00</div>
+          <div class="hour">12:00</div>
+          <div class="hour">12:00</div>
+          <div class="hour">12:00</div>
+          <div class="hour">12:00</div>
+          <div class="hour">12:00</div>
+          <div class="hour-temp-now">40</div>
+          <div class="hour-temp">29</div>
+          <div class="hour-temp">29</div>
+          <div class="hour-temp">29</div>
+          <div class="hour-temp">29</div>
+          <div class="hour-temp">29</div>
+          <div class="hour-temp">29</div>
+          <div class="hour-temp">29</div>
+          <div class="hour-temp">29</div>
+          <div class="hour-temp">°C</div>
+        </div>
+      </section>
+
+      <!-- section4 -->
+      <section class="section">
+        <div class="container container-4">
+          <div class="day">Monday</div>
+          <div class="day">Monday</div>
+          <div class="day">Monday</div>
+          <div class="day">Monday</div>
+          <div class="day">Monday</div>
+          <div class="day">Monday</div>
+          <div class="day">Monday</div>
+          <div class="day-icon">
+            <img class="day-icon-img" src="img/grph-rain.png" />
+          </div>
+          <div class="day-icon">
+            <img class="day-icon-img" src="img/graph-clouds.png" />
+          </div>
+          <div class="day-icon">
+            <img class="day-icon-img" src="img/graph-drizze.png" />
+          </div>
+          <div class="day-icon">
+            <img class="day-icon-img" src="img/graph-sun.png" />
+          </div>
+          <div class="day-icon">
+            <img class="day-icon-img" src="img/graph-snow.png" />
+          </div>
+          <div class="day-icon">
+            <img class="day-icon-img" src="img/graph-moon.png" />
+          </div>
+          <div class="day-icon">
+            <img class="day-icon-img" src="img/graph-thunder.png" />
+          </div>
+          <div class="day-temp">40 40</div>
+          <div class="day-temp">31 9</div>
+          <div class="day-temp">31 9</div>
+          <div class="day-temp">31 9</div>
+          <div class="day-temp">31 9</div>
+          <div class="day-temp">31 9</div>
+          <div class="day-temp">31 9</div>
+        </div>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>

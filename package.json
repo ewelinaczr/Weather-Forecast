@@ -1,0 +1,16 @@
+{
+  "name": "1.-weather-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ewelina Czerwińska",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.21.1",
+    "regenerator": "^0.14.7",
+    "runtime": "^0.14.1"
+  }
+}
